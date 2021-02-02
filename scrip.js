@@ -1,3 +1,5 @@
 function Cambiar(){
-   document.body.style.backgroundColor=document.getElementById("ingreso").value;
+   let color = document.getElementById("ingreso").value;
+   let numero = "#"+color;
+   document.body.style.backgroundColor = numero;
 }
